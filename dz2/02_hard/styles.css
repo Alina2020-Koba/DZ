@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(153, 9, 9);
+}
+
+.heading {
+    color: white;
+    font-size: small;
+}
+
+.upper {
+    border: none;
+    background-color: white;
+    color: white;
+    height: 1px;
+}
+
+.text1{
+    text-align: center;
+}
