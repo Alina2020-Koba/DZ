@@ -1,19 +1,81 @@
 body{
     background-color: rgb(153, 9, 9);
+    font-size: 18px;
 }
 
 .heading {
     color: white;
-    font-size: small;
+    font-size: 18px;
+    text-align: center;
 }
 
-.upper {
+.line1 {
     border: none;
-    background-color: white;
-    color: white;
     height: 1px;
+    background: linear-gradient(to left, rgb(153, 9, 9), #ffffff,rgb(153, 9, 9));
+    
 }
 
 .text1{
     text-align: center;
+    color: white;
+}
+
+img {
+    width:100%;
+}
+
+.images{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.block{
+    background-color: black;
+    width: 100%;
+}
+
+
+.left {
+    width: 100px;
+    text-decoration: underline rgb(233, 91, 17);
+    color: rgb(233, 91, 17);
+    background-color: rgb(125,9,9);
+    vertical-align: top;
+}
+
+.middle {
+    color: white;
+    width: 70%;
+    vertical-align: top;
+}
+.right {
+    width: 20px;
+    background-color: rgb(227, 221, 221);
+}
+
+.title1{
+    background-color: rgb(189,189,189);
+    text-align: center;
+    font-weight: bold;
+}
+
+.line2 {
+    color: white;
+    background-color: white;
+    width:50%;
+   
+}
+
+
+.copyright{
+    background-color: rgb(233, 91, 17);
+    /* font-size: larger; */
+    /* font-weight: bold; */
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
